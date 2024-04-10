@@ -25,7 +25,8 @@ const Menu = () => {
         </div>
         {/* Contact */}
         <div>
-          <CallIcon />
+          {/* <CallIcon /> */}
+          <button className="py-2 px-6 font-semibold rounded-md text-white bg-blue-600">Call Now</button>
         </div>
       </div>
       {/* Thsi is for Mobile */}
