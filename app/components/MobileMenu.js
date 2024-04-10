@@ -38,7 +38,7 @@ const MobileMenu = () => {
                                 <div className="flex justify-end p-5"><IoClose className="cursor-pointer text-white" size={30} onClick={() => setOpen(false)} />
                                 </div>
                                 {/* Menus */}
-                                <div className="flex flex-col justify-center h-[500px] items-center">
+                                <div className="flex flex-col justify-center h-[300px] items-center">
                                     {menuData.map((item, i) => (
                                         <Link key={i} href={item.link} className="text-black my-3 nav-item ">{item.title}</Link>
                                     ))}
