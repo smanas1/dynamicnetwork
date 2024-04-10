@@ -1,13 +1,12 @@
 import Image from "next/image";
 import logo from "../../public/logo.svg";
 import Link from "next/link";
-import CallIcon from "./CallIcon";
 import MobileMenu from "./MobileMenu";
 import { menuData } from "../data";
 const Menu = () => {
 
   return (
-    <div className="bg-[#0E1527] border-b border-genarel">
+    <div className="bg-[#0E1527] border-b border-genarel fixed w-full z-10" >
       {/* Thsi is for pv */}
       <div className="container  flex justify-between items-center max-lg:hidden lg:visible">
         {/* Logo */}

@@ -42,8 +42,8 @@ const MobileMenu = () => {
                                     {menuData.map((item, i) => (
                                         <Link key={i} href={item.link} className="text-black my-3 nav-item ">{item.title}</Link>
                                     ))}
-                                    <div className="mt-10 ms-6">
-                                        <CallIcon />
+                                    <div className="mt-10 ">
+                                        <button className="py-2 px-6 font-semibold rounded-md text-white bg-blue-600">Call Now</button>
                                     </div>
                                 </div>
                             </div>
