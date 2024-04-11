@@ -2,14 +2,15 @@ import heroImage from '../../public/Fast loading-rafiki.svg'
 import { BsRouterFill } from "react-icons/bs";
 import { IoWifi } from "react-icons/io5";
 import Image from 'next/image';
+import Link from 'next/link';
 const Hero = () => {
     return (
         <div className="md:grid  md:grid-cols-2  max-md:pb-10 sm:pt-10 h-screen lg:pt-52  text-white container">
             <div className='flex lg:px-8 xl:ps-40 pt-14 lg:pt-7 flex-col max-md:items-center'>
 
                 {/* Mobile Devise Image */}
-                <div className='md:hidden'> <Image src={heroImage} alt='Hero Image' width={200} height={200} />
-
+                <div className='md:hidden'>
+                    <Image src={heroImage} alt='Hero Image' width={200} height={200} />
                 </div>
                 <h1 className='font-semibold lg:text-5xl xl:text-6xl max-sm:mt-7 lg:w-[434px] xl:w-[538px] max-md:text-4xl max-md:text-center md:text-[27px]'>Switch to the best internet provider in your area</h1>
                 <p className='lg:pe-5 md:text-sm text-sm max-md:text-center md:pe-0 mt-4 lg:text-sm xl:pe-20 md:mt-5 lg:mt-8 text-blue-300'>Dynamic Network provides an extensive range of high quality data & internet connectivity services throughout Bonpara.</p>

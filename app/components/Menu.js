@@ -11,7 +11,9 @@ const Menu = () => {
       <div className="container  flex justify-between items-center max-lg:hidden lg:visible">
         {/* Logo */}
         <div>
-          <Image src={logo} alt="logo" height={200} width={200} />
+          <Link href='/'>
+            <Image src={logo} alt="logo" height={200} width={200} />
+          </Link>
         </div>
         {/* Menu */}
         <div className="max-xl:w-[40%] xl:w-[30%] justify-between flex relative">
