@@ -43,7 +43,7 @@ const MobileMenu = () => {
                                         <Link key={i} href={item.link} className="text-black my-3 nav-item ">{item.title}</Link>
                                     ))}
                                     <div className="mt-10 ">
-                                        <button className="py-2 px-6 font-semibold rounded-md text-white bg-blue-600">Call Now</button>
+                                        <button className="py-2 px-6 font-semibold rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-all hover:rounded-sm"><Link href='/contactus'>Call Now</Link></button>
                                     </div>
                                 </div>
                             </div>
