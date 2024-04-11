@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Menu from "./components/Menu";
+import Contact from "./components/Contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +18,9 @@ export default function RootLayout({ children }) {
 
         <>
           <Menu />
+
           {children}
+
         </>
       }</body>
     </html>

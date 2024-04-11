@@ -10,7 +10,7 @@ const ISP = () => {
             <div className="flex flex-col items-center justify-center ">
                 <h2 className="  md:w-[37rem] text-center text-3xl md:text-5xl font-bold">We are Internet Service Provider company
                 </h2>
-                <p className="md:w-[32rem] text-center mt-9" >Experience the difference with our top-notch internet services. Contact us today to explore our internet plans, installation options, </p>
+                <p className="hidden md:block md:w-[32rem] text-center mt-9" >Experience the difference with our top-notch internet services. Contact us today to explore our internet plans, installation options, </p>
             </div>
             <div className="flex justify-around flex-wrap gap-3 gap-y-10 mt-14">
                 <div className='flex flex-col justify-center items-center'>

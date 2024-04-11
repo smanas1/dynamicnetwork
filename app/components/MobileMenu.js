@@ -11,13 +11,13 @@ const MobileMenu = () => {
     const [open, setOpen] = useState(false)
 
     useEffect(() => {
-        let handlear = () => {
+        let handlears = () => {
             setOpen(false)
-            console.log(open)
+
         }
-        document.body.addEventListener("click", handlear)
+        document.body.addEventListener("click", handlears)
         return () => {
-            document.body.removeEventListener("click", handlear)
+            document.body.removeEventListener("click", handlears)
         }
     })
     return (
