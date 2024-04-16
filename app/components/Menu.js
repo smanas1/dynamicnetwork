@@ -27,7 +27,9 @@ const Menu = () => {
         {/* Contact */}
         <div>
           {/* <CallIcon /> */}
-          <button className="py-2 px-6 font-semibold rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-all hover:rounded-sm"><Link href='/contactus'>Call Now</Link></button>
+          <Link href='/contactus'>
+            <button className="py-2 px-6 font-semibold rounded-md text-white bg-blue-600 hover:bg-blue-700 transition-all hover:rounded-sm">Call Now</button>
+          </Link>
         </div>
       </div>
       {/* Thsi is for Mobile */}
