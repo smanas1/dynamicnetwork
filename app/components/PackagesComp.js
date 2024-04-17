@@ -16,7 +16,7 @@ const PackagesComp = () => {
                             <h3 className='text-[28px] font-semibold'>{item.name}</h3>
                             <div className='flex justify-center items-center rounded-md bg-[#F7F5FF] mt-5  py-4 px-3'>
                                 <div className='me-4'>
-                                    <FaWifi size={40} />
+                                    <FaWifi size={36} />
                                 </div>
                                 <div>
 
@@ -29,7 +29,8 @@ const PackagesComp = () => {
                                 <ul>
                                     {
                                         item.featers.map((item) => (
-                                            <li key={item.title} className='flex my-4 gap-4 text-lg items-center'><FaCheckCircle className='text-blue-700' size={22} /> {item.title}</li>
+                                            <li key={item.title} className='flex my-4 gap-4 text-base
+                                            font-medium items-center'><FaCheckCircle className='text-blue-600' size={20} /> {item.title}</li>
                                         ))
                                     }
                                 </ul>
