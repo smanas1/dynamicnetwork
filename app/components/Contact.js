@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 const Contact = () => {
   return (
     <div className=" flex  justify-center pt-20 h-screen bg-[#F7F5FF]">
-      <div className="py-4 px-10 h-72 mt-10  shadow-lg bg-white rounded-md ">
+      <div className="py-4 px-10 h-72 mt-10 text-center w-[340px] shadow-lg bg-white rounded-md">
         <h1 className="text-lg mb-2 font-semibold">
           Contact Us For Any Support
         </h1>
@@ -68,6 +68,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      {/* Map */}
     </div>
   );
 };
