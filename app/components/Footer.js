@@ -1,10 +1,12 @@
 import Link from "next/link";
 
 const Footer = () => {
+  const date = new Date();
+  console.log(date.getFullYear());
   return (
-    <div className="flex justify-center items-center py-2 bg-[#0E1527] text-white">
-      <p>
-        Design And Development by
+    <div className="flex justify-center text-center items-center py-2 bg-[#0E1527] text-white">
+      <p className="text-sm">
+        Design And Developed by
         <Link
           className="underline px-1 text-blue-400"
           href="https://github.com/smanas1"
@@ -18,6 +20,7 @@ const Footer = () => {
         >
           Sadi
         </Link>
+        All Rights Reserved ©{date.getFullYear()}
       </p>
     </div>
   );
