@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Menu from "./components/Menu";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,16 +14,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <body suppressHydrationWarning={true} className={inter.className}>
+        {
+          <>
+            <Menu />
 
-      <body suppressHydrationWarning={true} className={inter.className}>{
-
-        <>
-          <Menu />
-
-          {children}
-
-        </>
-      }</body>
+            {children}
+            <Footer />
+          </>
+        }
+      </body>
     </html>
   );
 }
