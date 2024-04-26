@@ -15,8 +15,8 @@ const Hero = () => {
           Switch to the best internet provider in your area
         </h1>
         <p className="lg:pe-5 md:text-sm text-sm max-md:text-center md:pe-0 mt-4 lg:text-sm xl:pe-20 md:mt-5 lg:mt-8 text-blue-300">
-          Dynamic Network provides an extensive range of high quality data &
-          internet connectivity services throughout Bonpara.
+          Dynamic Network provides an extensive range of high quality data and
+          we are the only licensed internet service provider in Bonpara.
         </p>
         <div>
           <Link href="/packages">

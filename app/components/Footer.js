@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   const date = new Date();
-  console.log(date.getFullYear());
+
   return (
     <div className="flex justify-center text-center items-center py-2 bg-[#0E1527] text-white">
       <p className="text-sm">
